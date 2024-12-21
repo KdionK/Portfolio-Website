@@ -14,10 +14,10 @@ const Footer = () => {
           href="./CV.pdf"
           target="_blank"
           download={"CV.pdf"}
-          className="cv-link"
+          className={style.cvLink}
         >
           <FileText />
-          <p>Mon CV</p>
+          <p className={style.cvText}>Mon CV</p>
         </a>
       </div>
       <div id="Social Media" className={style.footerSocial}>
@@ -32,16 +32,6 @@ const Footer = () => {
               <Instagram />
             </a>
           </li>
-          {/* <li>
-            <a href="">
-              <Image
-                src="/behance.png"
-                alt="Behance Logo"
-                width={40}
-                height={40}
-              />
-            </a>
-          </li> */}
         </ul>
       </div>
     </footer>
