@@ -1,0 +1,115 @@
+.contactSection {
+  align-self: center;
+  background-color: var(--lightish);
+  width: 60%;
+  min-height: 30rem;
+  margin-bottom: 4rem;
+  box-shadow: 0.5rem 0.5rem var(--lessDark);
+  & form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    padding-left: 3rem;
+    & div {
+      width: 80%;
+    }
+    & label {
+      display: block;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    & input,
+    & textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-left: 2rem;
+      background-color: transparent;
+      border-bottom: 1px solid white;
+    }
+    & textarea {
+      resize: none;
+      height: 3rem;
+      color: white;
+    }
+  }
+}
+
+.contactMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  & h1 {
+    font-size: 3rem;
+    color: white;
+  }
+}
+
+.contactTitle {
+  text-align: end;
+  font-size: 5rem;
+  padding: 15% 4rem;
+  width: 50%;
+}
+
+.moi {
+  color: var(--primary-600);
+  display: block;
+}
+
+.contactInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1rem 0.75rem 0.75rem;
+  background-color: var(--light-100);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactItem {
+  text-align: center;
+  color: var(--primary-200);
+  padding: 1rem;
+  background-color: var(--light);
+  border: 1px solid var(--primary-200);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contactItem h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-200);
+}
+
+.contactItem p {
+  font-size: 1rem;
+  color: var(--primary-600);
+  word-wrap: break-word; /* Ensures text wraps for long links or emails */
+}
+
+.contactItem:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px var(--lessDark);
+}
+
+.socialList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}

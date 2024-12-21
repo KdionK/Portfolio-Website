@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.04 65.37">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: UniversalSerif, 'Universal Serif';
+      }
+
+      .cls-3 {
+        font-size: 40px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <g>
+      <g>
+        <path class="cls-2" d="M61.45,0c28.01,22.74,9.62,22.71.21,27.09l6.5-10.93-10.03-8.74-10.03,8.74,6.5,10.93c-9.42-4.38-27.81-4.36.21-27.09l-25.87,10.66,1.42,4.69.53,8.15,3.41,7.41h47.68l3.41-7.41.53-8.15,1.42-4.69L61.45,0ZM59.29,18.78l-1.08,3.1h-.12l-1.08-3.1-2.1-2.61,3.25-2.83,3.25,2.83-2.1,2.61Z"/>
+        <rect class="cls-2" x="34.28" y="32.51" width="47.68" height="4.72"/>
+      </g>
+      <g>
+        <text class="cls-1" transform="translate(30.14 54.68) scale(.94 1)"><tspan x="0" y="0">Dion</tspan></text>
+        <text class="cls-3" transform="translate(32.27 54.59) rotate(-180) scale(.94 -1)"><tspan x="0" y="0">K</tspan></text>
+        <text class="cls-3" transform="translate(83.77 54.59) scale(.94 1)"><tspan x="0" y="0">K</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

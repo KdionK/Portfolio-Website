@@ -1,0 +1,14 @@
+.projetsTitle {
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary-200);
+}
+
+.projetsListe {
+  & span {
+    color: var(--primary-200);
+    font-weight: bold;
+  }
+}

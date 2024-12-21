@@ -3,19 +3,50 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --dark: #252726;
+  --lessDark: #2f3331;
+  --lightish: #414543;
+  --light: #59605d;
+  --primary-50: #fff9e5;
+  --primary-100: #ffeebd;
+  --primary-200: #ffe394;
+  --primary-300: #ffda68;
+  --primary-400: #ffd049;
+  --primary-500: #ffc739;
+  --primary-600: #ffba34;
+  --primary-700: #ffa830;
+  --primary-800: #fe982c;
+  --primary-900: #fd7a25;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --dun: #d9cab3;
+  --ghostWhite: #f4f4f9;
+
+  --secondary-50: #e7ecff;
+  --secondary-100: #c1ceff;
+  --secondary-200: #94aeff;
+  --secondary-300: #638ff9;
+  --secondary-400: #3b74ef;
+  --secondary-500: #005be4;
+  --secondary-600: #0053d9;
+  --secondary-700: #0048cc;
+  --secondary-800: #003ec0;
+  --secondary-900: #002ba9;
+
+  --font-teko: "Teko", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: var(--dark);
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Teko", sans-serif;
 }

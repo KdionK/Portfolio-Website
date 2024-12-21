@@ -1,0 +1,78 @@
+/* General Footer Styles */
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  height: 8rem;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.footerName h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-200);
+}
+
+.footerCv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cvLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.cvLink:hover {
+  color: #ffdd57; /* Accent color */
+  transform: scale(1.05);
+}
+
+.footerSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socialList {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socialList li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5%;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.socialList li a:hover {
+  background-color: #ffdd57; /* Accent color */
+  transform: scale(1.1);
+}
+
+.socialList li a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
