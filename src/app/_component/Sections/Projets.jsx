@@ -78,7 +78,7 @@ const Projets = () => {
           </ul>
         </SingleProjet>
         <SingleProjet
-          imgLink="/nowhere.png"
+          imgLink="/Nowhere.png"
           imgAlt="A night at nowhere station"
           title="A night at nowhere station"
           leftOrRight="right"
