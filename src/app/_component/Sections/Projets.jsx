@@ -119,7 +119,7 @@ const Projets = () => {
           className={" w-2/5"}
         >
           Underwater Kingdom est un projet en réalité virtuelle développé en
-          <span>Unity</span> qui a été fait en collaboration avec mes deux
+          <span> Unity</span> qui a été fait en collaboration avec mes deux
           incroyables amis, Pier-Charles Martin et Luka Munger. Ensemble, nous
           voulions créer une expérience d'exploration sous-marine dans un
           chateau abandonné. <br />
