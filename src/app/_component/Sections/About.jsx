@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
 import Image from "next/image";
+import { FileText } from "lucide-react";
 
 const About = () => {
   return (
@@ -21,6 +22,17 @@ const About = () => {
             Une photo de moi, Regardez ces yeux doux et dites-moi que vous ne
             voulez pas m'engager !
           </p>
+          <a
+            href="./CV.pdf"
+            target="_blank"
+            download={"CV.pdf"}
+            className={
+              " text-center font-bold text-lg self-center pl-0 flex flex-col items-center mt-4"
+            }
+          >
+            <FileText />
+            <p className={style.aboutCV}>Mon CV</p>
+          </a>
         </div>
         <div className={style.aboutDesc}>
           <h1>Bonjour!</h1>
@@ -51,7 +63,7 @@ const About = () => {
             rapidement compris qu'autant que j'adore la réseautique et la
             programmation, je voulais également faire de l'art. C'est ainsi que
             je me suis finalement orienté vers
-            <span>l'intégration multimédia</span>.
+            <span> l'intégration multimédia</span>.
           </p>
           <div className={style.aboutAbilities}>
             <h1>Mes compétences</h1>
