@@ -1,34 +1,22 @@
 import { FileText, Instagram, Linkedin } from "lucide-react";
-import Image from "next/image";
 import React from "react";
-import style from "./Footer.module.css";
+import style from "../_css/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
-      <div id="nom" className={style.footerName}>
+    <footer className="border-t-2 border-orange-300 pb-4">
+      <div id="nom" className="">
         <h1>Karim Dion Khelalfa</h1>
       </div>
-      <div id="CV" className={style.footerCv}>
-        <a
-          href="./CV.pdf"
-          target="_blank"
-          download={"CV.pdf"}
-          className={style.cvLink}
-        >
-          <FileText />
-          <p className={style.cvText}>Mon CV</p>
-        </a>
-      </div>
-      <div id="Social Media" className={style.footerSocial}>
-        <ul className={style.socialList}>
+      <div id="Social Media" className="">
+        <ul className={style.LinkFlex}>
           <li>
             <a href="https://www.linkedin.com/in/karimdionk/">
               <Linkedin />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/pancakedoesart67/">
+            <a href="https://www.instagram.com/Karimdoesart67/">
               <Instagram />
             </a>
           </li>

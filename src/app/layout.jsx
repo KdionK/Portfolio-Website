@@ -1,8 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Teko } from "next/font/google";
 import { Inter } from "next/font/google";
-import MobileNav from "./_component/MobileNav";
 import "./globals.css";
+import Navigation from "./_component/Navigation";
+import Footer from "./_component/Sections/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,7 +34,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${teko.variable} ${inter.variable} antialiased`}>
+        <header>
+          <Navigation />
+        </header>
         {children}
+        <Footer />
       </body>
     </html>
   );

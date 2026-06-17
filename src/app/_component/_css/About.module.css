@@ -1,0 +1,33 @@
+.MainAbout {
+  background-color: var(--lightish);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  color: var(--ghostWhite);
+  p {
+    margin-top: 1rem;
+    font-family: var(--font-inter);
+    text-align: justify;
+  }
+}
+
+.PhotoDesc {
+  p {
+    color: var(--primary-500);
+    font-style: italic;
+    font-size: 0.65rem;
+  }
+}
+.CompetencesList {
+  h2 {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-200);
+  }
+  ul {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+  }
+}

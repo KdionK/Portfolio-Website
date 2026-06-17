@@ -1,0 +1,31 @@
+.navigation {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary-500);
+  margin-bottom: 1.5rem;
+}
+.hamburger {
+  background-color: var(--primary-900);
+}
+.links {
+  background-color: var(--primary-500);
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* Media queries for larger devices */
+@media (min-width: 768px) {
+  /* Styles for tablet devices and larger */
+}
+
+@media (min-width: 1024px) {
+  /* Styles for desktop devices and larger */
+}
