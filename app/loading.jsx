@@ -4,6 +4,7 @@ import style from "./loading.module.css";
 
 const loading = () => {
   return (
+    // from https://codepen.io/kucukharf/pen/pvzeZJr
     <div>
       <div className={style.boxes}>
         <div className={style.box}>
@@ -32,7 +33,6 @@ const loading = () => {
         </div>
       </div>
     </div>
-    // from https://codepen.io/kucukharf/pen/pvzeZJr
   );
 };
 

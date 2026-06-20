@@ -19,9 +19,11 @@ export default function Navbar() {
           width={75}
           height={75}
           alt="Logo"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </Link>
-
       {/* Hamburger */}
       <button
         onClick={() => setOpen(!open)}
@@ -31,7 +33,6 @@ export default function Navbar() {
       >
         ☰
       </button>
-
       {/* Links */}
       <div
         className={`${open ? "translate-y-0" : "-translate-y-full"} 
@@ -47,7 +48,10 @@ export default function Navbar() {
               width={75}
               height={75}
               alt="Logo"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </button>
         </Link>
 

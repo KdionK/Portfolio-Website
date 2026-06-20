@@ -8,7 +8,6 @@ const About = () => {
       <div className="">
         <h1>À PROPOS DE MOI</h1>
       </div>
-
       <div className="">
         <div className={`${style.PhotoDesc}`}>
           <Image
@@ -16,7 +15,10 @@ const About = () => {
             width={350}
             height={350}
             alt="Photo profesionnel de Karim Dion K."
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
           <p>
             Une photo de moi, Regardez ces yeux doux et dites-moi que vous ne
             voulez pas m'engager !

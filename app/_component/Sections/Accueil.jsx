@@ -12,7 +12,10 @@ const Accueil = () => {
           width={350}
           height={350}
           className=""
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <h1 className="">Welcome to My Portfolio</h1>
         <p className="">
           Explorez mes projets, mes compétences et mon expérience !

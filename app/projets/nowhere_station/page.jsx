@@ -11,19 +11,28 @@ export default function Page() {
           width={1200}
           height={800}
           alt="Now Here Station"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Image
           src="/nowherestation/2.jpg"
           width={1200}
           height={800}
           alt="Now Here Station"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Image
           src="/nowherestation/3.jpg"
           width={1200}
           height={800}
           alt="Now Here Station"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
     </div>
   );

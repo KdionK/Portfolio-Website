@@ -11,19 +11,28 @@ export default function Page() {
           width={1200}
           height={800}
           alt="Loops & Laps"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Image
           src="/loops_laps/2.jpg"
           width={1200}
           height={800}
           alt="Loops & Laps"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Image
           src="/loops_laps/3.jpg"
           width={1200}
           height={800}
           alt="Loops & Laps"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
     </div>
   );

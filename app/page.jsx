@@ -1,5 +1,5 @@
 import Main from "./_component/Sections/Main";
 
-export default async function Home() {
+export default function Home() {
   return <Main />;
 }

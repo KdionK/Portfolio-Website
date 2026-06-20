@@ -12,7 +12,10 @@ export default function SaintesOfSevers() {
         alt="Saints Of Severs"
         width={800}
         height={400}
-      />
+        style={{
+          maxWidth: "100%",
+          height: "auto"
+        }} />
     </div>
   );
 }
